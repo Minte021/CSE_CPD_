@@ -11,7 +11,6 @@ for i in w:
     else:
         w_index.append(x)
 w_index.sort()
-print(w_index)
 q = []
 for i in range(len(w_index) - 1):
     p = w_index[i] + w_index[i + 1]
